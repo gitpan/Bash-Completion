@@ -1,6 +1,6 @@
 package Bash::Completion::Utils;
 BEGIN {
-  $Bash::Completion::Utils::VERSION = '0.001';
+  $Bash::Completion::Utils::VERSION = '0.002';
 }
 
 # ABSTRACT: Set of utility functions that help writting plugins
@@ -9,6 +9,7 @@ use strict;
 use warnings;
 use parent 'Exporter';
 use File::Spec::Functions;
+use Config;
 
 @Bash::Completion::Utils::EXPORT_OK = qw(
   command_in_path
@@ -20,7 +21,7 @@ use File::Spec::Functions;
 sub command_in_path {
   my ($cmd) = @_;
 
-  for my $path (grep {$_} split(/:/, $ENV{PATH})) {
+  for my $path (grep {$_} split(/$Config{path_sep}/, $ENV{PATH})) {
     my $file = catfile($path, $cmd);
     return $file if -x $file;
   }
@@ -93,7 +94,7 @@ Bash::Completion::Utils - Set of utility functions that help writting plugins
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 SYNOPSIS
 
@@ -157,7 +158,7 @@ This software is Copyright (c) 2010 by Pedro Melo.
 
 This is free software, licensed under:
 
-  The Artistic License 2.0
+  The Artistic License 2.0 (GPL Compatible)
 
 =cut
 

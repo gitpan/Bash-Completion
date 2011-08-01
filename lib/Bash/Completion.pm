@@ -1,6 +1,6 @@
 package Bash::Completion;
 BEGIN {
-  $Bash::Completion::VERSION = '0.001';
+  $Bash::Completion::VERSION = '0.002';
 }
 
 # ABSTRACT: Extensible system to provide bash completion
@@ -49,7 +49,7 @@ sub setup {
       $snippet = join(
         "\n",
         map {
-          qq{complete -C 'bash-complete complete $plugin_name' $options $_}
+          qq{complete -C 'bash-complete complete $plugin_name -- ' $options $_}
           } @$cmds
       );
     }
@@ -98,7 +98,7 @@ Bash::Completion - Extensible system to provide bash completion
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 SYNOPSIS
 
@@ -167,7 +167,7 @@ This software is Copyright (c) 2010 by Pedro Melo.
 
 This is free software, licensed under:
 
-  The Artistic License 2.0
+  The Artistic License 2.0 (GPL Compatible)
 
 =cut
 

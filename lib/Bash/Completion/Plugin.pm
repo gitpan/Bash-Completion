@@ -1,6 +1,6 @@
 package Bash::Completion::Plugin;
 BEGIN {
-  $Bash::Completion::Plugin::VERSION = '0.001';
+  $Bash::Completion::Plugin::VERSION = '0.002';
 }
 
 # ABSTRACT: base class for Bash::Completion plugins
@@ -46,7 +46,7 @@ Bash::Completion::Plugin - base class for Bash::Completion plugins
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 SYNOPSIS
 
@@ -173,7 +173,7 @@ This software is Copyright (c) 2010 by Pedro Melo.
 
 This is free software, licensed under:
 
-  The Artistic License 2.0
+  The Artistic License 2.0 (GPL Compatible)
 
 =cut
 

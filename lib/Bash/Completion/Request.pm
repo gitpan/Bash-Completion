@@ -1,6 +1,6 @@
 package Bash::Completion::Request;
 BEGIN {
-  $Bash::Completion::Request::VERSION = '0.001';
+  $Bash::Completion::Request::VERSION = '0.002';
 }
 
 # ABSTRACT: Abstract a completion request
@@ -60,7 +60,7 @@ sub candidates {
 ## Stolen from http://github.com/yanick/dist-zilla/blob/master/contrib/dzil-complete
 sub _get_completion_word {
   my $comp = substr $ENV{'COMP_LINE'}, 0, $ENV{'COMP_POINT'};
-  $comp =~ s/.*\h//;
+  $comp =~ s/.*\s//;
   return word => $comp;
 }
 
@@ -83,7 +83,7 @@ Bash::Completion::Request - Abstract a completion request
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 ATTRIBUTES
 
@@ -130,7 +130,7 @@ This software is Copyright (c) 2010 by Pedro Melo.
 
 This is free software, licensed under:
 
-  The Artistic License 2.0
+  The Artistic License 2.0 (GPL Compatible)
 
 =cut
 
