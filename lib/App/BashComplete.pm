@@ -1,6 +1,6 @@
 package App::BashComplete;
 BEGIN {
-  $App::BashComplete::VERSION = '0.002';
+  $App::BashComplete::VERSION = '0.003';
 }
 
 # ABSTRACT: command line interface to Bash::Complete
@@ -107,7 +107,7 @@ App::BashComplete - command line interface to Bash::Complete
 
 =head1 VERSION
 
-version 0.002
+version 0.003
 
 =head1 ATTRIBUTES
 

@@ -31,7 +31,7 @@ my %WriteMakefileArgs = (
     'Module::Pluggable' => '0',
     'parent' => '0'
   },
-  'VERSION' => '0.002',
+  'VERSION' => '0.003',
   'test' => {
     'TESTS' => 't/*.t'
   }

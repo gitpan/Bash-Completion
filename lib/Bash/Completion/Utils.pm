@@ -1,6 +1,6 @@
 package Bash::Completion::Utils;
 BEGIN {
-  $Bash::Completion::Utils::VERSION = '0.002';
+  $Bash::Completion::Utils::VERSION = '0.003';
 }
 
 # ABSTRACT: Set of utility functions that help writting plugins
@@ -94,7 +94,7 @@ Bash::Completion::Utils - Set of utility functions that help writting plugins
 
 =head1 VERSION
 
-version 0.002
+version 0.003
 
 =head1 SYNOPSIS
 

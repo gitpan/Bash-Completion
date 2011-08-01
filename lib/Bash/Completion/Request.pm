@@ -1,6 +1,6 @@
 package Bash::Completion::Request;
 BEGIN {
-  $Bash::Completion::Request::VERSION = '0.002';
+  $Bash::Completion::Request::VERSION = '0.003';
 }
 
 # ABSTRACT: Abstract a completion request
@@ -83,7 +83,7 @@ Bash::Completion::Request - Abstract a completion request
 
 =head1 VERSION
 
-version 0.002
+version 0.003
 
 =head1 ATTRIBUTES
 
