@@ -1,6 +1,6 @@
 package Bash::Completion;
 BEGIN {
-  $Bash::Completion::VERSION = '0.004';
+  $Bash::Completion::VERSION = '0.005';
 }
 
 # ABSTRACT: Extensible system to provide bash completion
@@ -98,7 +98,7 @@ Bash::Completion - Extensible system to provide bash completion
 
 =head1 VERSION
 
-version 0.004
+version 0.005
 
 =head1 SYNOPSIS
 

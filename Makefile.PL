@@ -28,11 +28,11 @@ my %WriteMakefileArgs = (
   'NAME' => 'Bash::Completion',
   'PREREQ_PM' => {
     'File::Spec' => '0',
-    'Getopt::Long' => '0',
+    'Getopt::Long' => '2.36',
     'Module::Pluggable' => '0',
     'parent' => '0'
   },
-  'VERSION' => '0.004',
+  'VERSION' => '0.005',
   'test' => {
     'TESTS' => 't/*.t'
   }
