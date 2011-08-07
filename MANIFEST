@@ -1,4 +1,3 @@
-00-next.md
 Changes
 INSTALL
 LICENSE
@@ -25,7 +24,6 @@ t/10-bash-completion.t
 t/50-app-bash-complete.t
 t/60-plugin-bashcomplete.t
 t/release-distmeta.t
-t/release-eol.t
 t/release-no-tabs.t
 t/release-pod-coverage.t
 t/release-pod-syntax.t

@@ -12,6 +12,7 @@ my %WriteMakefileArgs = (
   'ABSTRACT' => 'Extensible system to provide bash completion',
   'AUTHOR' => 'Pedro Melo <melo@cpan.org>',
   'BUILD_REQUIRES' => {
+    'File::Temp' => '0',
     'Test::Deep' => '0',
     'Test::More' => '0.98'
   },
@@ -31,7 +32,7 @@ my %WriteMakefileArgs = (
     'Module::Pluggable' => '0',
     'parent' => '0'
   },
-  'VERSION' => '0.003',
+  'VERSION' => '0.004',
   'test' => {
     'TESTS' => 't/*.t'
   }

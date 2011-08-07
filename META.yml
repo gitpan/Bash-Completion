@@ -3,6 +3,7 @@ abstract: 'Extensible system to provide bash completion'
 author:
   - 'Pedro Melo <melo@cpan.org>'
 build_requires:
+  File::Temp: 0
   Test::Deep: 0
   Test::More: 0.98
 configure_requires:
@@ -21,4 +22,4 @@ requires:
   parent: 0
 resources:
   repository: http://github.com/melo/bash-completion.git
-version: 0.003
+version: 0.004

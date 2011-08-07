@@ -1,6 +1,6 @@
 package Bash::Completion::Request;
 BEGIN {
-  $Bash::Completion::Request::VERSION = '0.003';
+  $Bash::Completion::Request::VERSION = '0.004';
 }
 
 # ABSTRACT: Abstract a completion request
@@ -66,7 +66,7 @@ sub _get_completion_word {
 
 sub _get_arguments {
   my $comp = substr $ENV{'COMP_LINE'}, 0, $ENV{'COMP_POINT'};
-  my @args = split(/\h+/, $comp);
+  my @args = split(/\s+/, $comp);
 
   return args => \@args, count => scalar(@args);
 }
@@ -83,7 +83,7 @@ Bash::Completion::Request - Abstract a completion request
 
 =head1 VERSION
 
-version 0.003
+version 0.004
 
 =head1 ATTRIBUTES
 
