@@ -9,32 +9,32 @@ use ExtUtils::MakeMaker 6.30;
 
 
 my %WriteMakefileArgs = (
-  'ABSTRACT' => 'Extensible system to provide bash completion',
-  'AUTHOR' => 'Pedro Melo <melo@cpan.org>',
-  'BUILD_REQUIRES' => {
-    'File::Temp' => '0',
-    'Test::Deep' => '0',
-    'Test::More' => '0.98'
+  "ABSTRACT" => "Extensible system to provide bash completion",
+  "AUTHOR" => "Pedro Melo <melo\@cpan.org>",
+  "BUILD_REQUIRES" => {
+    "File::Temp" => 0,
+    "Test::Deep" => 0,
+    "Test::More" => "0.98"
   },
-  'CONFIGURE_REQUIRES' => {
-    'ExtUtils::MakeMaker' => '6.30'
+  "CONFIGURE_REQUIRES" => {
+    "ExtUtils::MakeMaker" => "6.30"
   },
-  'DISTNAME' => 'Bash-Completion',
-  'EXE_FILES' => [
-    'bin/bash-complete',
-    'bin/setup-bash-complete'
+  "DISTNAME" => "Bash-Completion",
+  "EXE_FILES" => [
+    "bin/bash-complete",
+    "bin/setup-bash-complete"
   ],
-  'LICENSE' => 'artistic_2',
-  'NAME' => 'Bash::Completion',
-  'PREREQ_PM' => {
-    'File::Spec' => '0',
-    'Getopt::Long' => '2.36',
-    'Module::Pluggable' => '0',
-    'parent' => '0'
+  "LICENSE" => "artistic_2",
+  "NAME" => "Bash::Completion",
+  "PREREQ_PM" => {
+    "File::Spec" => 0,
+    "Getopt::Long" => "2.36",
+    "Module::Pluggable" => 0,
+    "parent" => 0
   },
-  'VERSION' => '0.005',
-  'test' => {
-    'TESTS' => 't/*.t'
+  "VERSION" => "0.006",
+  "test" => {
+    "TESTS" => "t/*.t"
   }
 );
 

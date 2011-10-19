@@ -4,7 +4,7 @@
       "Pedro Melo <melo@cpan.org>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 4.200012, CPAN::Meta::Converter version 2.110930001",
+   "generated_by" : "Dist::Zilla version 4.300002, CPAN::Meta::Converter version 2.112621",
    "license" : [
       "artistic_2"
    ],
@@ -43,6 +43,6 @@
          "web" : "http://github.com/melo/bash-completion/"
       }
    },
-   "version" : "0.005"
+   "version" : "0.006"
 }
 
