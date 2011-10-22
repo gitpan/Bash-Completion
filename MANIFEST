@@ -1,4 +1,3 @@
-00-next.md
 Changes
 INSTALL
 LICENSE
@@ -31,5 +30,6 @@ t/release-pod-syntax.t
 t/tlib/OhPleaseLetNotBeAModuleWithThisPrefixOnCPAN/A.pm
 t/tlib/OhPleaseLetNotBeAModuleWithThisPrefixOnCPAN/B.pm
 t/tlib/OhPleaseLetNotBeAModuleWithThisPrefixOnCPAN/c.pm
+t/tlib/Test/BashCompletionTestUtils.pm
 t/tlib/bin/perldoc
 weaver.ini

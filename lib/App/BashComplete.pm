@@ -1,6 +1,6 @@
 package App::BashComplete;
 {
-  $App::BashComplete::VERSION = '0.006';
+  $App::BashComplete::VERSION = '0.007';
 }
 
 # ABSTRACT: command line interface to Bash::Complete
@@ -107,7 +107,7 @@ App::BashComplete - command line interface to Bash::Complete
 
 =head1 VERSION
 
-version 0.006
+version 0.007
 
 =head1 ATTRIBUTES
 
@@ -149,7 +149,7 @@ Pedro Melo <melo@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is Copyright (c) 2010 by Pedro Melo.
+This software is Copyright (c) 2011 by Pedro Melo.
 
 This is free software, licensed under:
 

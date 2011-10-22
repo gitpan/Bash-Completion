@@ -1,6 +1,6 @@
 package Bash::Completion::Plugins::BashComplete;
 {
-  $Bash::Completion::Plugins::BashComplete::VERSION = '0.006';
+  $Bash::Completion::Plugins::BashComplete::VERSION = '0.007';
 }
 
 # ABSTRACT: Plugin for bash-complete
@@ -54,7 +54,7 @@ Bash::Completion::Plugins::BashComplete - Plugin for bash-complete
 
 =head1 VERSION
 
-version 0.006
+version 0.007
 
 =head1 SYNOPSIS
 
@@ -84,7 +84,7 @@ Pedro Melo <melo@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is Copyright (c) 2010 by Pedro Melo.
+This software is Copyright (c) 2011 by Pedro Melo.
 
 This is free software, licensed under:
 

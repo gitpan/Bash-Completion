@@ -1,6 +1,6 @@
 package Bash::Completion::Utils;
 {
-  $Bash::Completion::Utils::VERSION = '0.006';
+  $Bash::Completion::Utils::VERSION = '0.007';
 }
 
 # ABSTRACT: Set of utility functions that help writting plugins
@@ -94,7 +94,7 @@ Bash::Completion::Utils - Set of utility functions that help writting plugins
 
 =head1 VERSION
 
-version 0.006
+version 0.007
 
 =head1 SYNOPSIS
 
@@ -154,7 +154,7 @@ Pedro Melo <melo@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is Copyright (c) 2010 by Pedro Melo.
+This software is Copyright (c) 2011 by Pedro Melo.
 
 This is free software, licensed under:
 

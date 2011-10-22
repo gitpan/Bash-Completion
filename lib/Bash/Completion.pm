@@ -1,6 +1,6 @@
 package Bash::Completion;
 {
-  $Bash::Completion::VERSION = '0.006';
+  $Bash::Completion::VERSION = '0.007';
 }
 
 # ABSTRACT: Extensible system to provide bash completion
@@ -8,6 +8,7 @@ package Bash::Completion;
 use strict;
 use warnings;
 use Bash::Completion::Request;
+use Module::Load ();
 use Module::Pluggable
   search_path => ['Bash::Completion::Plugins'],
   sub_name    => 'plugin_names';
@@ -84,7 +85,9 @@ sub plugins {
 #######
 # Utils
 
-sub _load_class { return eval "require $_[1]" }
+sub _load_class {
+  eval { Module::Load::load($_[1]); 1 };
+}
 
 1;
 
@@ -98,7 +101,7 @@ Bash::Completion - Extensible system to provide bash completion
 
 =head1 VERSION
 
-version 0.006
+version 0.007
 
 =head1 SYNOPSIS
 
@@ -163,7 +166,7 @@ Pedro Melo <melo@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is Copyright (c) 2010 by Pedro Melo.
+This software is Copyright (c) 2011 by Pedro Melo.
 
 This is free software, licensed under:
 
