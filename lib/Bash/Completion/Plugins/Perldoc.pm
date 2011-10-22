@@ -1,6 +1,6 @@
 package Bash::Completion::Plugins::Perldoc;
 {
-  $Bash::Completion::Plugins::Perldoc::VERSION = '0.007';
+  $Bash::Completion::Plugins::Perldoc::VERSION = '0.008';
 }
 
 # ABSTRACT: complete perldoc command 
@@ -156,7 +156,7 @@ Bash::Completion::Plugins::Perldoc - complete perldoc command
 
 =head1 VERSION
 
-version 0.007
+version 0.008
 
 =head1 SYNOPSIS
 

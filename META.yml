@@ -26,4 +26,4 @@ requires:
 resources:
   bugtracker: https://github.com/melo/bash-completion/issues
   repository: git://github.com/melo/bash-completion.git
-version: 0.007
+version: 0.008

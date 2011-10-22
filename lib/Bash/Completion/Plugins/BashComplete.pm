@@ -1,6 +1,6 @@
 package Bash::Completion::Plugins::BashComplete;
 {
-  $Bash::Completion::Plugins::BashComplete::VERSION = '0.007';
+  $Bash::Completion::Plugins::BashComplete::VERSION = '0.008';
 }
 
 # ABSTRACT: Plugin for bash-complete
@@ -54,7 +54,7 @@ Bash::Completion::Plugins::BashComplete - Plugin for bash-complete
 
 =head1 VERSION
 
-version 0.007
+version 0.008
 
 =head1 SYNOPSIS
 
